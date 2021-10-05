@@ -14,7 +14,7 @@ const BooksList = ({ books }) => (
     <tbody>
       {
           books && books.length
-            ? books.map(val => <Book key={val.id} book={val} />)
+            ? books.map((val) => <Book key={val.id} book={val} />)
             : 'No books!'
       }
 
@@ -22,7 +22,7 @@ const BooksList = ({ books }) => (
   </table>
 );
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   const { books } = state;
   return { books };
 };
