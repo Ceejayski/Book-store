@@ -1,39 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
 import App from './components/App';
-import combineReducers from './reducers/index';
-
-const state = {
-  books: [
-    {
-      id: Math.random(),
-      title: 'Biology Conceptions',
-      category: 'Learning',
-    },
-
-    {
-      id: Math.random(),
-      title: 'Microverse Instructions',
-      category: 'Learning',
-    },
-    {
-      id: Math.random(),
-      title: 'Microverse Instructions',
-      category: 'Learning',
-    },
-  ],
-};
-
-const store = createStore(combineReducers, state);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root'),
 );
