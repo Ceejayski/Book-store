@@ -3,7 +3,7 @@ In this project, we set up the bookstore application that will help a company or
 
  
  ## Live Demo:
-[BookStore](https://clever-banach-545afe.netlify.app)
+[BookStore](https://agitated-swanson-822d73.netlify.app/)
 
 
 ## Built-With
