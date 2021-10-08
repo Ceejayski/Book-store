@@ -4,21 +4,7 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 const Book = ({ book, handleRemoveBook }) => (
-  // <tr id={book.id}>
-  //   <td>
-  //     { book.id }
-  //   </td>
-  //   <td>
-  //     { book.title }
-  //   </td>
-  //   <td>
-  //     { book.category }
-  //   </td>
-  //   <td>
-  //     <button onClick={() => handleRemoveBook(book)} type="submit">Remove</button>
-  //   </td>
-  // </tr>
-  <div className="card my-4">
+  <div className="card bg-white my-4">
     <div className="card-body row">
       <div className="col-5">
         <div className="category">
