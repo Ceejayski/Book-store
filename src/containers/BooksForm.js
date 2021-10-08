@@ -34,7 +34,7 @@ const BooksForm = (props) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="container mb-5">
+    <form onSubmit={handleSubmit} className="container mb-5 border-top">
       <h4 className="add-new-book">ADD NEW BOOK</h4>
       <div className="row">
         <div className="col-7">

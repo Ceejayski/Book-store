@@ -34,3 +34,51 @@ code {
 .form-select {
   margin-top: 100px;
 }
+
+.Bookstore-CMS {
+  width: 240px;
+  height: 37px;
+  margin: 6px 47px 2px 0;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: normal;
+  color: #0290ff;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+.panel-bg {
+  width: 1400px;
+  height: 100px;
+  margin: 0 0 20px;
+  padding: 23px 99px 27px 100px;
+  background-color: #fff;
+}
+
+.BOOKS {
+  width: 59px;
+  margin: 0 41px 11px 0;
+}
+
+.CATEGORIES {
+  width: 105px;
+  opacity: 0.5;
+  color: #555;
+  text-decoration: none !important;
+}
+
+.Oval {
+  padding: 14px 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+}
+
+.Mask {
+  width: 17px;
+  height: 17px;
+  color: #0290ff;
+  font-size: 17px;
+  display: block;
+  margin: auto;
+}
