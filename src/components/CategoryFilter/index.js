@@ -8,7 +8,7 @@ const CategoryFilter = ({ handleFilterChange }) => {
   };
 
   return (
-    <select name="category" id="category" onChange={handleChange}>
+    <select name="category" className="form-select" aria-label="Default select example" id="category" onChange={handleChange}>
       {categories.map((val) => (
         <option key={val} value={val}>
           {val}

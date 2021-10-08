@@ -32,31 +32,17 @@ const BooksList = ({
   };
 
   return (
-    <>
-      <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Title</th>
-            <th>Category</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {
+    <main className="container ml-4">
+      <CategoryFilter handleFilterChange={handleFilterChange} />
+      {
               books && books.length
                 ? renderFilter()
                 : (
-                  <tr>
-                    <td>No books!</td>
-                  </tr>
+                  <p>No Books</p>
                 )
 
           }
-        </tbody>
-      </table>
-      <CategoryFilter handleFilterChange={handleFilterChange} />
-    </>
+    </main>
   );
 };
 
