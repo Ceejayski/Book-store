@@ -15,8 +15,8 @@ const Navbar = () => (
         </li>
       </ul>
       <ul className="navbar-nav ms-auto align-items-center">
-        <li className="Oval">
-          <i className="fas fa-user" />
+        <li className="Oval me-2">
+          <i className="fas fa-user Mask" />
         </li>
       </ul>
     </nav>

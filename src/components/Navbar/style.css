@@ -29,3 +29,19 @@
   margin: 0 664px 11px 41px;
   opacity: 0.5;
 }
+
+.Oval {
+  margin-left: auto;
+  padding: 14px;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+}
+
+.Mask {
+  width: 17px;
+  height: 17px;
+  color: #0290ff;
+  font-size: 17px;
+  display: block;
+  margin: auto;
+}
