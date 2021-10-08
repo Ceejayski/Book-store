@@ -32,7 +32,7 @@ const BooksList = ({
   };
 
   return (
-    <main className="container ml-4">
+    <main className="container pt-4">
       <CategoryFilter handleFilterChange={handleFilterChange} />
       {
               books && books.length
