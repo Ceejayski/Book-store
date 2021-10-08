@@ -1,7 +1,7 @@
 import './style.css';
 
 const Navbar = () => (
-  <div className="border-bottom fixed-top">
+  <div className="border-bottom fixed-top bg-white">
     <header className="container">
       <nav className="navbar navbar-expand-lg  bg-white">
         <div className="container-fluid">
