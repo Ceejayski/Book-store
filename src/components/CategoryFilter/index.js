@@ -3,19 +3,21 @@ import PropTypes from 'prop-types';
 const CategoryFilter = ({ handleFilterChange }) => {
   const categories = ['All', 'Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
 
-  const handleChange = (e) => {
-    handleFilterChange(e.target.value);
+  const handleClick = (e) => {
+    handleFilterChange(e.target.textContent);
   };
 
   return (
-    <select name="category" id="category" onChange={handleChange}>
-      {categories.map((val) => (
-        <option key={val} value={val}>
-          {val}
-        </option>
-      ))}
-
-    </select>
+    <li className="nav-item dropdown">
+      <a className="CATEGORIES dropdown-toggle" href="/#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Category
+      </a>
+      <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        {categories.map((val) => (
+          <li key={val}><a className="dropdown-item" href="/#" onClick={handleClick}>{val}</a></li>
+        ))}
+      </ul>
+    </li>
   );
 };
 

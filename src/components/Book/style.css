@@ -1,0 +1,65 @@
+.default-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.blue {
+  color: #4386bf;
+}
+
+.category {
+  margin: 0 39px 0 0;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.book-default-font {
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #121212;
+  color: var(--black-two);
+}
+
+.progress-div {
+  width: 150px;
+  height: 100%;
+}
+
+.line-2 {
+  width: 0.5px;
+  height: 70px;
+  margin: 18px 59px 0 79px;
+  border: 1px solid #e8e8e8;
+}
+
+.current-chapter {
+  margin: 1px 58px 0 0;
+  opacity: 0.5;
+  font-size: 13px;
+  letter-spacing: normal;
+}
+
+.current-lesson {
+  width: 105px;
+  height: 21px;
+  margin: 7px 109px 4px 0;
+  font-size: 16px;
+  letter-spacing: -0.4px;
+}
+
+.update-progress {
+  width: 163px;
+  height: 35px;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  background-color: #0290ff;
+  border: none;
+}
